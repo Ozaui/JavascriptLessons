@@ -37,6 +37,8 @@ var isSuccessful2 = student1MathGPA2 > 50;
 console.log("2. öğrencini başarılı mı? " + isSuccessful2);
 
 let year = new Date().getFullYear();
+let gun = new Date().getDate();
+console.log(gun);
 
 let stundent1Age = year - student1DateofBirth;
 console.log(stundent1Age);
